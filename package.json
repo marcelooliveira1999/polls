@@ -8,7 +8,7 @@
     "node": "20.12.2"
   },
   "scripts": {
-    "dev": "node --watch --no-warnings src/app.js"
+    "dev": "node --watch --no-warnings --env-file=.env src/app.js"
   },
   "keywords": [],
   "author": "Marcelo Oliveira",
