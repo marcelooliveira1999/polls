@@ -1,0 +1,23 @@
+{
+  "name": "polls",
+  "version": "1.0.0",
+  "description": "API to create end vote in polls",
+  "main": "app.js",
+  "type": "commonjs",
+  "engines": {
+    "node": "20.12.2"
+  },
+  "scripts": {
+    "dev": "node --watch --no-warnings src/app.js"
+  },
+  "keywords": [],
+  "author": "Marcelo Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3"
+  }
+}
